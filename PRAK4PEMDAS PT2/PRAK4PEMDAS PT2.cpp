@@ -75,3 +75,4 @@ int main()
 			system("pasue");
 			break;
 		}
+	} while (pilihan != 5);
