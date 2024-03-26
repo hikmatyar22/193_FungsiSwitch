@@ -26,4 +26,5 @@ int main()
 
 	cout << "Luas Persegi Panjang Dengan Fungsi : " << fungsiluas(panjang, lebar) << endl;
 
+	return 0;
 }
