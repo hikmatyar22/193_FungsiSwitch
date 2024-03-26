@@ -45,3 +45,33 @@ int main()
 		cout << "5. Keluar" << endl;
 		cout << "Masukkan Piliahan : ";
 		cin >> pilihan;
+
+		switch (pilihan)
+		{
+		case 1:
+			inputdata();
+			cout << "\nHasil Penjumlahan : " << penjumlahan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 2:
+			inputdata();
+			cout << "\nHasil Pengurangan : " << pengurangan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 3:
+			inputdata();
+			cout << "\nHasil Perkalian : " << perkalian(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 4:
+			inputdata();
+			cout << "\nHasil Pembagian : " << pembagian(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 5:
+			break;
+		default:
+			cout << "Pilihan Tidak Valid" << endl;
+			system("pasue");
+			break;
+		}
